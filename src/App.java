@@ -155,26 +155,27 @@ public class App {
 
   // Method untuk menampilkan isi array
   public static void display(int[] arr) {
+
+    // Melakukan looping sesuai dengan panjang array
     for (int i = 0; i < arr.length; i++) {
+      // Menampilkan isi array ke [i]
       System.out.print(arr[i]);
+      // Kondisi jika bukan sisi array yang terakhir
       if (i < arr.length - 1) {
+        // Maka akan ditambahkan koma
         System.out.print(", ");
       }
     }
     System.out.println("");
   }
 
-  // Method input string
-  public static String inputString(String message) {
-    Scanner input = new Scanner(System.in);
-    System.out.print(message + " : ");
-    return input.nextLine();
-  }
-
-  // Method input int
+  // Method input integer
   public static int inputInt(String message) {
+    // Deklarasi scanner
     Scanner input = new Scanner(System.in);
+    // Menampilkan pesan
     System.out.print(message + " : ");
+    // Membaca yang diinput user kemudian langsung dikembalikan
     return input.nextInt();
   }
 }
