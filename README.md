@@ -2,13 +2,14 @@
 
 Contoh program java mengurtkan bilangan acak dalam array menggunakan Insertion Sort.
 
-Program ini menggunakan Scanner untuk membaca inputan atau masukan user dan menggunakan Random untuk mengacak urutan angka dalam array.
+Program ini menggunakan `java.util.Scanner` untuk membaca inputan atau masukan user dan menggunakan `java.math.Random` untuk mengacak urutan angka dalam array.
 
 Cara menggunakan :
 
 1. Jalankan program
 2. Masukan panjang array yang akan diisi angka acak (jumlah bilangan) kemudian tekan Enter
 3. Pilih menu yang ingin dijalankan
+4. Have fun :)
 
 Dibuat oleh [Dimas Angkasa Nurindra](https://github.com/angkasa27)
 
