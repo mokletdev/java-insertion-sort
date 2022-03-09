@@ -1,9 +1,5 @@
 // Program java untuk mengurutkan angka acak menggunakan insertion sort
 // Dibuat oleh Dimas Angkasa Nurindra
-// Jika ada pertanyaan bisa tanya langsung ke 
-// Email    : mas.angkasa27@gmail.com
-// Insta    : mas.angkasa27
-// Facebook : Dimas Angkasa Nurindra
 
 // Import module yang dibutuhkan
 import java.util.Scanner;
